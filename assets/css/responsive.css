@@ -29,6 +29,9 @@
     width: calc((100% - 1rem) / 2);
   }
 
+  .artist-info-container {flex-direction: column;}
+  .artist-info-container > * {width: 100%;}
+
   .left-content {width:55%;}
   .right-content {width:45%;}
 }
@@ -38,10 +41,8 @@
   .song-card {
     width: calc((100% - 3rem) / 3);
   }
-  
   .left-content {width:65%;}
   .right-content {width:35%;}
-  
 }
 
 /* Large desktops (1280px and above) */
@@ -49,7 +50,9 @@
   .song-card {
     width: calc((100% - 3rem) / 4);
   }
-
+  
+  .artist-info-container {flex-direction: row;}
+  .artist-info-container > * {width: auto;}
   .left-content {width:75%;}
   .right-content {width:25%;}
 }
