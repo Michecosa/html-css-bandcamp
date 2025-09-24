@@ -51,6 +51,8 @@
     width: calc((100% - 3rem) / 4);
   }
   
+  .buttons-container {display:flex; flex-direction: row; align-items:center; gap:1rem}
+  .buttons-container > * {width: 100%;}
   .artist-info-container {flex-direction: row;}
   .artist-info-container > * {width: auto;}
   .left-content {width:75%;}
