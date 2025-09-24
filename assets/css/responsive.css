@@ -29,9 +29,6 @@
     width: calc((100% - 1rem) / 2);
   }
 
-  .artist-info-container {flex-direction: column;}
-  .artist-info-container > * {width: 100%;}
-
   .left-content {width:55%;}
   .right-content {width:45%;}
 }
@@ -53,7 +50,7 @@
   
   .buttons-container {display:flex; flex-direction: row; align-items:center; gap:1rem}
   .buttons-container > * {width: 100%;}
-  .artist-info-container {flex-direction: row;}
+  .artist-info-container {display:flex; justify-content: space-between; flex-direction: row;}
   .artist-info-container > * {width: auto;}
   .left-content {width:75%;}
   .right-content {width:25%;}
