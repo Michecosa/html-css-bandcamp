@@ -144,6 +144,16 @@ main {
 
     font-size: 1rem;
   }
+
+  .play-song {
+    margin-block: 0.5rem;
+    line-height: 1.4rem;
+
+    .play-button {
+      font-size: 3.5rem;
+      margin-right: 1rem;
+    }
+  }
 }
 
 .artist {
