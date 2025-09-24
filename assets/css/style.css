@@ -75,9 +75,7 @@ main {
   }
 
   .left-content {
-    scrollbar-width: thin;
     scrollbar-color: transparent transparent;
-
   }
   
   .song-card {
@@ -87,6 +85,7 @@ main {
 
 
   .right-content {
-    padding-inline: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid rgba(204, 204, 204, 0.1);
   }
 }
