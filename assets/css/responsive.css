@@ -1,0 +1,20 @@
+@media screen and (max-width:600px) {
+  .label {display: none;}
+
+  .left-content {width:100%;}
+
+  /* ! Fix input width in filter-search */
+
+  .song-card {
+    width: calc((100% - 3rem) / 2);
+  }
+}
+
+@media screen and (601px <= width <= 744px) {
+}
+
+@media screen and (min-width:1024px) {
+  .song-card {
+    width: calc((100% - 3rem) / 3);
+  }
+}
