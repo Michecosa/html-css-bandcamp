@@ -10,6 +10,7 @@
   --color-bg-gray: #2b2b2b;
   --color-white: #ffffff;
   --color-light-gray: #949494;
+  --color-bg-input: #464646;
 
   --height-header: 6.813rem; /* (109px) or 14.361% */
 }
@@ -17,6 +18,18 @@
 img {
   width: 100%;
   border: 1px solid rgba(204, 204, 204, 0.1);
+}
+
+input {
+  border: 0;
+  border-radius: 4px;
+  padding-inline: 1rem;
+  
+  height: 2rem;
+  width: 20rem;
+
+  color: var(--color-white);
+  background-color: var(--color-bg-input);
 }
 
 /* Utilities */
