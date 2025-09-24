@@ -20,6 +20,8 @@ img {
   border: 1px solid rgba(204, 204, 204, 0.1);
 }
 
+button:hover {cursor: pointer;}
+
 input {
   border: 1px solid var(--color-bg-gray);
   border-radius: 4px;
@@ -126,6 +128,7 @@ main {
   
   
   .right-content {
+    scrollbar-width: none;
     padding-left: 1rem;
     border-left: 1px solid rgba(204, 204, 204, 0.1);
   }
