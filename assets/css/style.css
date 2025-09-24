@@ -44,6 +44,8 @@ input {
   border: 1px solid var(--color-white);
 }
 
+.label {display: none;}
+
 /* Utilities */
 
 .overflow-auto-y {
