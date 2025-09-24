@@ -14,11 +14,20 @@
   }
 }
 
-@media screen and (601px <= width <= 744px) {
-}
-
-@media screen and (min-width:1024px) {
+@media screen and (601px <= width <= 743px) {
   .song-card {
     width: calc((100% - 3rem) / 3);
+  }
+}
+
+@media screen and (min-width:744px) {
+  .song-card {
+    width: calc((100% - 3rem) / 3);
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .song-card {
+    width: calc((100% - 3rem) / 4);
   }
 }
