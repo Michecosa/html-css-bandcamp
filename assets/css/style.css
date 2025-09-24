@@ -202,7 +202,8 @@ main {
 button:hover,
 .left-topbar svg,
 .left-topbar img,
-.right-topbar button {
+.right-topbar button,
+i {
   cursor: pointer;
 }
 
@@ -213,6 +214,6 @@ a:hover {text-decoration: underline;}
   background-color: var(--color-bg-gray);
 }
 
-main img:hover {
-  border: 2px solid transparent;
-}
+main img:hover {border: 2px solid transparent;}
+main i:hover {color:var(--color-light-gray);}
+main .dark-btn:hover {background-color: var(--color-bg-gray);}
