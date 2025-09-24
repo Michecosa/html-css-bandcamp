@@ -16,6 +16,7 @@
 
 img {
   width: 100%;
+  border: 1px solid rgba(204, 204, 204, 0.1);
 }
 
 /* Utilities */
@@ -82,9 +83,6 @@ main {
   .song-card {
     width: calc((100% - 5rem) / 4);
     margin-bottom: 2rem;
-    img {
-      border: 1px solid var(--color-light-gray);
-    }
   }
 
 
