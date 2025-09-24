@@ -202,6 +202,11 @@ main {
 }
 
 
+/* POSITION MECHANICS */
+.left-content .img-container {position:relative;}
+.left-content .play-button {position: absolute; bottom: 2%; left: 2%;}
+
+
 /* HOVER MECHANICS +cursor pointer */
 
 button:hover,
@@ -219,6 +224,13 @@ a:hover {text-decoration: underline;}
   background-color: var(--color-bg-gray);
 }
 
-.left-content img:hover {border: 2px solid transparent;}
+.left-content img:hover {
+  border: 2px solid transparent;
+}
+
+.song-card:hover .play-button {
+  display: block; /* o flex, o inline-block */
+}
+
 main i:hover {color:var(--color-light-gray);}
 main .dark-btn:hover {background-color: var(--color-bg-gray);}
