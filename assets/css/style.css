@@ -125,6 +125,16 @@ main {
   margin-bottom: 2rem;
 }
 
+.right-content {
+  button {
+    width: 100%;
+
+    margin-block: 0.25rem;
+    padding: 1rem;
+
+    font-size: 1rem;
+  }
+}
 
 .artist {
   margin-block: 1rem;
