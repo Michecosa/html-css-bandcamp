@@ -22,6 +22,9 @@
   height: 100%;
 }
 
+.d-flex {display: flex;}
+.justify-content-sb {justify-content: space-between;}
+
 
 
 /* *** BODY *** */
