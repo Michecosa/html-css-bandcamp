@@ -1,6 +1,10 @@
 /* Small smartphones (up to 600px) */
 @media screen and (max-width:600px) {
   .label {display: none;}
+  .logo-mobile {
+    display: block;
+    border: 0;
+  }
 
   .left-content {width:100%;}
 
