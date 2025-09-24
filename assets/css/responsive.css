@@ -3,7 +3,11 @@
 
   .left-content {width:100%;}
 
-  /* ! Fix input width in filter-search */
+  #filter-search-container {flex:1;}
+  #filter-search input {
+    width: 100%;
+    max-width: 100%;
+  }
 
   .song-card {
     width: calc((100% - 3rem) / 2);
