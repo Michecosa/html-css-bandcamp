@@ -11,7 +11,6 @@
   --color-white: #ffffff;
 
   --height-header: 6.813rem; /* (109px) or 14.361% */
-  --width-right-content: 25.813rem; /* (413px) or 32.24% */
 }
 
 
@@ -26,6 +25,8 @@
 .justify-content-sb {justify-content: space-between;}
 .padding-inline {padding-inline: 2rem;}
 
+.right-col {width: 30vw;} 
+.left-col {width: 70vw;} 
 
 /* *** BODY *** */
 
@@ -59,3 +60,19 @@ header {
 }
 
 
+/* *** MAIN *** */
+
+main {
+  .left-content, 
+  .right-content {
+    height: 100px;
+  }
+  
+  .left-content {
+    background-color: var(--color-logo);
+  }
+  
+  .right-content {
+    background-color: pink;
+  }
+}
