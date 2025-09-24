@@ -10,7 +10,7 @@
   }
 
   .song-card {
-    width: calc((100% - 3rem) / 2);
+    width: calc((100% - 1rem) / 2);
   }
 }
 
@@ -20,14 +20,21 @@
     width: 23.5rem;
   }
   .song-card {
-    width: calc((100% - 3rem) / 3);
+    width: calc((100% - 1rem) / 2);
   }
+
+  .left-content {width:55%;}
+  .right-content {width:45%;}
 }
 
 @media screen and (min-width:744px) {
   .song-card {
     width: calc((100% - 3rem) / 3);
   }
+  
+  .left-content {width:65%;}
+  .right-content {width:35%;}
+  
 }
 
 @media screen and (min-width:1280px) {
