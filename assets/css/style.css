@@ -114,7 +114,6 @@ main {
   
   .song-card {
     width: calc((100% - 3rem) / 4);
-    min-width: 195px;
     margin-bottom: 2rem;
   }
 
