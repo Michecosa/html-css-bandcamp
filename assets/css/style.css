@@ -31,7 +31,7 @@ img {
 .flex-1 {flex: 1;}
 .flex-wrap {flex-wrap: wrap;}
 .justify-content-sb {justify-content: space-between;}
-.align-items-b {align-items: baseline;}
+.align-items-c {align-items: center;}
 .padding-inline {padding-inline: 2rem;}
 
 .col-30 {width: 30%;} 
@@ -58,6 +58,8 @@ header {
 }
 
 #topbar {
+  padding-inline: 2rem;
+
   svg path:first-child {
     fill: var(--color-logo);
   }
@@ -93,11 +95,4 @@ main {
     padding-left: 1rem;
     border-left: 1px solid rgba(204, 204, 204, 0.1);
   }
-}
-
-
-.topbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
