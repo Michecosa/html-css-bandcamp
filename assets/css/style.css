@@ -13,7 +13,11 @@
   --height-header: 6.813rem; /* (109px) or 14.361% */
 }
 
-img {width: 100%;}
+img {
+  aspect-ratio: 1/1;
+  max-width: 100%;
+  object-fit: scale-down;
+}
 
 /* Utilities */
 
@@ -30,6 +34,8 @@ img {width: 100%;}
 .right-col {width: 30vw;} 
 .left-col {width: 70vw;} 
 
+.wrapper {height: 100%;}
+
 /* *** BODY *** */
 
 body {
@@ -38,8 +44,6 @@ body {
 
   background-color: var(--color-bg-dark);
 }
-
-
 
 /* *** HEADER *** */
 
@@ -65,6 +69,11 @@ header {
 /* *** MAIN *** */
 
 main {
+  .left-content,
+  .right-content {
+    height: calc(100vh - var(--height-header));
+  }
+
   .left-content {
     background-color: var(--color-logo);
 
