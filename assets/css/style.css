@@ -113,14 +113,15 @@ main {
     scrollbar-color: transparent transparent;
   }
   
-  .song-card {
-    width: calc((100% - 3rem) / 4);
-    margin-bottom: 2rem;
-  }
-
-
+  
+  
   .right-content {
     padding-left: 1rem;
     border-left: 1px solid rgba(204, 204, 204, 0.1);
   }
+}
+
+.song-card {
+  width: calc((100% - 3rem) / 4);
+  margin-bottom: 2rem;
 }
