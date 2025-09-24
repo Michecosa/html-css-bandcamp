@@ -24,7 +24,7 @@
 
 .d-flex {display: flex;}
 .justify-content-sb {justify-content: space-between;}
-
+.padding-inline {padding-inline: 2rem;}
 
 
 /* *** BODY *** */
@@ -42,12 +42,20 @@ body {
 
 header {
   height: var(--height-header);
+
+  #filter-search {
+    background-color: var(--color-bg-gray);
+  }
 }
 
-#topbar svg path:first-child {
-  fill: var(--color-logo);
+#topbar {
+  svg path:first-child {
+    fill: var(--color-logo);
+  }
+
+  svg path:last-child {
+    fill: var(--color-white);
+  }
 }
 
-#topbar svg path:last-child {
-  fill: var(--color-white);
-}
+
