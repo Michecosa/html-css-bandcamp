@@ -9,6 +9,9 @@
   --color-bg-dark: #222222;
   --color-bg-gray: #2b2b2b;
   --color-white: #ffffff;
+
+  --height-header: 109px; /* or 14.361% */
+  --width-aside: 413px; /* or 32.24% */
 }
 
 body {
@@ -16,7 +19,11 @@ body {
   overflow: hidden;
 }
 
+
+/* Utilities */
+
 .overflow-auto-y {
   overflow-y: auto;
   height: 100%;
 }
+
