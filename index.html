@@ -13,10 +13,13 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div id="topbar">
-      <div class="padding-inline d-flex justify-content-sb">
-        <div class="left-topbar d-flex">
+  <header class="d-flex flex-direction-c">
+    <!-- Topbar -->
+    <div id="topbar" class="flex-1 d-flex align-items-c">
+      <div class="padding-inline">
+
+        <!-- Topbar: left side -->
+        <div class="left-topbar d-flex align-items-c">
           <div class="logo-container">
             <svg data-v-cf965d7c="" width="120" viewBox="0 0 795 125" aria-hidden="true" style="--logo-fill-color: var(--white);"><g data-v-cf965d7c="">
               <path data-v-cf965d7c="" d="M113.88 98.17H0L53.18 0h113.88z" stroke="none" class="tent"></path>
@@ -27,13 +30,17 @@
             <input type="search" placeholder="Search and discover music">
           </div>
         </div>
+
+        <!-- Topbar: right side -->
         <div class="right-topbar d-flex">
           <button>Sign up</button>
           <button>Log in</button>
         </div>
       </div>
     </div>
-    <div id="filter-search">
+
+    <!-- Filter search -->
+    <div id="filter-search" class="flex-1">
       <div class="padding-inline">
         <input type="search" placeholder="Add a genre, location, or tag">
       </div>
