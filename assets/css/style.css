@@ -79,11 +79,15 @@ main {
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
 
-    .song-card {
-      width: calc((100% - 1rem) / 4);
-    }
   }
   
+  .song-card {
+    width: calc((100% - 5rem) / 4);
+    margin-bottom: 2rem;
+    img {
+      border: 1px solid var(--color-light-gray);
+    }
+  }
   .right-content {
 
   }
