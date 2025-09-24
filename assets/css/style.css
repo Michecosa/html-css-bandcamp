@@ -31,7 +31,7 @@ img {
 .flex-1 {flex: 1;}
 .flex-wrap {flex-wrap: wrap;}
 .justify-content-sb {justify-content: space-between;}
-.align-items-c {align-items: center;}
+.align-items-b {align-items: baseline;}
 .padding-inline {padding-inline: 2rem;}
 
 .col-30 {width: 30%;} 
