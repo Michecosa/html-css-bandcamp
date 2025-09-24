@@ -98,7 +98,7 @@ header {
     fill: var(--color-white);
   }
 
-  .dark-btn {border:0;}
+  .dark-btn {border:0; font-size: 1rem;}
 }
 
 #filter-search {
