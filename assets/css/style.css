@@ -46,6 +46,11 @@ input {
 
 /* Utilities */
 
+.container {
+  max-width:1800px;
+  margin: 0 auto;
+}
+
 .overflow-auto-y {
   overflow-y: auto;
   height: 100%;
@@ -84,6 +89,9 @@ body {
 header {
   height: var(--height-header);
 }
+
+#topbar,
+#filter-search-container {width:100%;}
 
 #topbar {
   padding-inline: 2rem;
