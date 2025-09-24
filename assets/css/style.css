@@ -137,6 +137,9 @@ main {
 .song-card {
   width: calc((100% - 3rem) / 4);
   margin-bottom: 2rem;
+  line-height: 1.5rem;
+
+  .song-genre {color:var(--color-light-gray)}
 }
 
 .right-content {
