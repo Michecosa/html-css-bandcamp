@@ -38,6 +38,12 @@ input {
   background-size: 16px;
 }
 
+.dark-btn {
+  color: var(--color-white);
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+}
+
 /* Utilities */
 
 .overflow-auto-y {
