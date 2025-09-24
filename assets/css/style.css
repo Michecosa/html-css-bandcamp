@@ -44,4 +44,10 @@ header {
   height: var(--height-header);
 }
 
+#topbar svg path:first-child {
+  fill: var(--color-logo);
+}
 
+#topbar svg path:last-child {
+  fill: var(--color-white);
+}
