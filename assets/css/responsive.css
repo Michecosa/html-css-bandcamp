@@ -37,8 +37,12 @@
   
 }
 
+
 @media screen and (min-width:1280px) {
   .song-card {
     width: calc((100% - 3rem) / 4);
   }
+
+  .left-content {width:75%;}
+  .right-content {width:25%;}
 }
