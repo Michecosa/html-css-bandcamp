@@ -75,7 +75,8 @@ main {
   }
 
   .left-content {
-    background-color: var(--color-logo);
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
 
     .song-card {
       width: calc((100% - 1rem) / 4);
@@ -83,6 +84,6 @@ main {
   }
   
   .right-content {
-    background-color: pink;
+
   }
 }
