@@ -95,6 +95,8 @@ header {
   svg path:last-child {
     fill: var(--color-white);
   }
+
+  .dark-btn {border:0;}
 }
 
 #filter-search {
