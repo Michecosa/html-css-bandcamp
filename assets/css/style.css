@@ -63,11 +63,6 @@ header {
 /* *** MAIN *** */
 
 main {
-  .left-content, 
-  .right-content {
-    height: 100px;
-  }
-  
   .left-content {
     background-color: var(--color-logo);
   }
