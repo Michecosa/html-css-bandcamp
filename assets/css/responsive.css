@@ -15,6 +15,10 @@
 }
 
 @media screen and (601px <= width <= 743px) {
+  input {width: 15rem;}
+  #filter-search input {
+    width: 23.5rem;
+  }
   .song-card {
     width: calc((100% - 3rem) / 3);
   }
