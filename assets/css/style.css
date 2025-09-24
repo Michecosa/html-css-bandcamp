@@ -161,6 +161,10 @@ main {
   .song-genre {color:var(--color-light-gray)}
 }
 
+.left-content {
+  .play-button {display: none;}
+}
+
 .right-content {
   button {
     width: 100%;
