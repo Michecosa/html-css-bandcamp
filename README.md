@@ -42,12 +42,12 @@ This exercise website simulates a music streaming platform where users can:
 - **Filter Search**: Advanced search bar for genres and tags
 
 ### Main Content
-- **Left Panel (75%)**: Music card grid with:
+- **Left Panel**: Music card grid with:
   - Album cover with hover effect
   - Song title and artist
   - Music genre
   - Interactive play button
-- **Right Panel (25%)**: Selected song details with:
+- **Right Panel**: Selected song details with:
   - Main player
   - Album and artist info
   - Action buttons (Go to Album, Wishlist)
