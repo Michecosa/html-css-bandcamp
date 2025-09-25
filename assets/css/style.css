@@ -207,6 +207,8 @@ main {
 
 }
 
+#details button[class="image-popover"] {padding: 0;}
+
 .artist {
   margin-block: 1rem;
   line-height: 1.25rem;
