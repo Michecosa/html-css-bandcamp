@@ -3,6 +3,8 @@
 ⚠️ **Disclaimer**: This is a **practice project website** created for learning purposes.  
 It is not a real music streaming service.
 
+💡 **Note:** This project includes **interactive popovers** using HTML/CSS to display additional information when clicking on certain elements like album covers.
+
 A modern web platform concept for discovering and listening to music, featuring a clean and responsive user interface.
 
 🌐 [Check it out!](https://michecosa.github.io/html-css-bandcamp/)  
@@ -52,6 +54,8 @@ This exercise website simulates a music streaming platform where users can:
   - Album and artist info
   - Action buttons (Go to Album, Wishlist)
   - Artist follow section
+- **Popover functionality**: 
+  - Clicking the album cover on the right or the play button for every song card shows extra content in a popover  
 
 ## 📱 Responsive Design
 
