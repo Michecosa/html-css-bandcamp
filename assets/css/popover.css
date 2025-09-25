@@ -1,0 +1,25 @@
+:root {
+  --color-logo: #0cacd7;
+  --color-bg-dark: #222222;
+  --color-bg-gray: #2b2b2b;
+  --color-white: #ffffff;
+  --color-light-gray: #949494;
+  --color-bg-input: #464646;
+}
+
+
+#mypopover {
+  background-color: var(--color-bg-dark);
+  color:var(--color-white);
+  border: 0;
+
+  .popover-bottom-container {
+    margin-block: 1rem;
+  }
+
+  button {
+    background-color: var(--color-white);
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
