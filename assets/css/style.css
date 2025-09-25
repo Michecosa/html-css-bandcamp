@@ -22,7 +22,7 @@ img {
   border: 2px solid rgba(204, 204, 204, 0.1);
 }
 
-input {
+input[type="search"] {
   border: 1px solid var(--color-bg-gray);
   border-radius: 4px;
   padding-inline: 2.25rem 1rem;
@@ -31,7 +31,6 @@ input {
   width: 21.5rem;
 
   font-size: 1rem;
-
   color: var(--color-white);
   
   background: var(--color-bg-input) 
