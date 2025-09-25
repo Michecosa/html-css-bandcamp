@@ -160,6 +160,13 @@ main {
   .song-genre {color:var(--color-light-gray)}
 }
 
+.song-title,
+.song-author {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .left-content {
   .play-button {
     font-size: 1rem;
