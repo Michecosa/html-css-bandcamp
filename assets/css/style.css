@@ -234,7 +234,7 @@ main {
 
 /* POSITION MECHANICS */
 .left-content .img-container {position:relative;}
-.left-content .play-button {position: absolute; bottom: 4%; left: 2%;}
+.left-content button {position: absolute; bottom: 4%; left: 2%;}
 
 
 /* HOVER MECHANICS +cursor pointer */
@@ -250,6 +250,8 @@ i {
 
 button:hover,
 a:hover {text-decoration: underline;}
+
+.song-card button {text-decoration: none;}
 
 .right-topbar button:hover {
   background-color: var(--color-bg-gray);
