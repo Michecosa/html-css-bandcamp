@@ -23,3 +23,12 @@
     font-size: 1rem;
   }
 }
+
+
+/* *** POSITION mechanics *** */
+
+#mypopover {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
