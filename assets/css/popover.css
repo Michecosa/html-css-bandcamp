@@ -19,6 +19,7 @@
 
   button {
     background-color: var(--color-white);
+    border-radius: 6px;
     padding: 1rem;
     font-size: 1rem;
   }
