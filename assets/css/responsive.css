@@ -2,6 +2,9 @@
 @media screen and (max-width:600px) {
   .label {display: none;}
   .song-card:hover .label {opacity: 0;}
+
+  .padding-inline {padding-inline: 1rem;}
+
   .logo-mobile {
     display: block;
     border: 0;
