@@ -87,6 +87,8 @@ body {
 
 header {
   height: var(--height-header);
+
+  .topbar-container {height:100%;}
 }
 
 #topbar,
