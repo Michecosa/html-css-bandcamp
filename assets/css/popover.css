@@ -32,3 +32,10 @@
   top: 50%;
   left: 50%;
 }
+
+
+/* *** Overlay/Darken background *** */
+#mypopover::backdrop {
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(2px);
+}
