@@ -209,6 +209,10 @@ main {
     }
   }
 
+  .image-popover {
+    padding: 0;
+  }
+
   .buttons-container {margin-block: 2rem;}
   .artist-info-container {margin-bottom: 2rem;}
 
