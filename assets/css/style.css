@@ -211,7 +211,7 @@ main {
 
 /* POSITION MECHANICS */
 .left-content .img-container {position:relative;}
-.left-content .play-button {position: absolute; bottom: 6%; left: 2%;}
+.left-content .play-button {position: absolute; bottom: 4%; left: 2%;}
 
 
 /* HOVER MECHANICS +cursor pointer */
