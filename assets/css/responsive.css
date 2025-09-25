@@ -22,9 +22,10 @@
 
 /* Medium smartphones (601px to 743px) */
 @media screen and (min-width: 601px) and (max-width: 743px) {
-  input {width: 15rem;}
+  #topbar input {width:12rem;}
+
   #filter-search input {
-    width: 23.5rem;
+    width: 20.5rem;
   }
   .song-card {
     width: calc((100% - 1rem) / 2);
